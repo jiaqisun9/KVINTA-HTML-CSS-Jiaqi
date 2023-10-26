@@ -1,0 +1,17 @@
+h3{
+    color: blueviolet;
+}
+q{
+    font-size: x-small;
+}
+i{
+    font-family: fantasy;
+    /* border robi ohranicenie elementu */
+    border: 3px solid #000000;
+    /* pedding urcenie vzdialenosti jednotlivych atributov alebo elementov */
+    /* v tomto pridade padding urcuje vzdialenost textu a borderu */
+    padding: 20px;
+    /* margin definuje vzdialenost navonok */
+    /* v tomto pripade vzdialenost  bordru a textu od predchadzajuceho elmentu */
+    margin: 50px;
+}
