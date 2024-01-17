@@ -1,0 +1,65 @@
+.cover{
+    padding-left: 280px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 60%;
+    height: 60%;    
+    object-fit: cover;
+}
+h1{
+    font-size: 50px;
+    background-color: rgb(218, 23, 23);
+    border: 5px solid rgb(245, 210, 11);
+    padding-left: 250px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+h2{
+    font-size: 30px;
+    padding-left: 390px;
+    background-color: rgb(218, 23, 23);
+    border: 5px solid rgb(245, 210, 11);
+    margin-left: 150px;
+    margin-right: 120px;
+}
+p{
+    padding-left: 125px;
+    font-size: large;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+img{
+    padding-left: 150px;
+    width: 20%;
+    height: 20%;    
+    object-fit: cover;
+} 
+b{
+    padding-left: 125px;
+    font-size: large;
+    margin-left: 90px;
+    margin-right: 150px;
+}
+#text{
+    position: absolute;
+    margin-top: 25px;
+
+}
+
+.frame{
+    position: relative;
+    background-color: rgb(218, 23, 23);
+    width: 1060px;
+    height: 300px;
+    margin-left: 11.5%;
+}
+#traditions{
+    padding: 5px;
+    padding-left: 10px;
+    position: absolute;
+    margin-top: 5px;
+    height: 280px;
+    width: 200px;
+}
+
