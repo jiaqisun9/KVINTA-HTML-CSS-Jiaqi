@@ -22,13 +22,6 @@ h2{
     margin-left: 150px;
     margin-right: 120px;
 }
-p{
-    padding-left: 125px;
-    font-size: large;
-    margin-left: 150px;
-    margin-right: 150px;
-}
-
 img{
     padding-left: 150px;
     width: 20%;
@@ -46,7 +39,6 @@ b{
     margin-top: 25px;
 
 }
-
 .frame{
     position: relative;
     background-color: rgb(218, 23, 23);
