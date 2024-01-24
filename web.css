@@ -94,3 +94,11 @@ b{
     height: 280px;
     width: 200px;
 }
+table{
+    position: relative;
+    background-color: rgb(255, 242, 54);
+    width: 1060px;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 11.5%;
+}
