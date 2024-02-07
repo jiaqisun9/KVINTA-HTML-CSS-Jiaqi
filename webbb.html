@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <body style="background-color: rgb(255, 255, 146);">
+           <!-- form element sluzi na vytvaranie formulara v HTML forme a je prispôsobeny na input uzivatela je to tiez container narp. na text, checkbox, tlačidla -->
+           <form><centre>
+            <label for="fname">Prihlasovacie meno</label><br>
+            <input type="text" id="fname1" name="fname1"><br
+                   id="fname1"
+                   name="fname1"
+                   autofocus=""
+                   autocapitalize="none"
+                   autocomplete="fname1"
+                   required="">
+          <label for="pass1">Password</label><br>
+          <input type="text" id="pass1" name="pass1" ><br>
+                          <br /><br />
+                          <button type="submit">
+                            Login
+                          </button></form></centre>
+                          <script>
+                            const togglePassword =
+                                  document.querySelector('#togglePassword');
+                     
+                            const password = 
+                                  document.querySelector('#id_password');
+                     
+                            togglePassword.
+                            addEventListener('click', function (e) {
+                     
+                                // Toggle the type attribute 
+                                const type = password.getAttribute(
+                                    'type') === 'password' ? 'text' : 'password';
+                                password.setAttribute('type', type);
+                                // Toggle the eye slash icon 
+                                if (togglePassword.src.match(
+                    "eyecross-removebg-preview.png")) {
+                                    togglePassword.src =
+                    "eyecross-removebg-preview.png";
+                                } else {
+                                    togglePassword.src =
+                    "eyecross-removebg-preview.png";
+                                }
+                            }); 
+                        </script>
+                        <p>Vyber najoblubenejsi skladbu</p>
+                        <form>
+                            <input type="radio" id="car" name="naj. prostriedok" value="my move">
+                            <label for="car">my move</label>
+                            <input type="radio" id="car" name="naj. prostriedok" value="love season">
+                            <label for="car">love season</label>
+                            <input type="radio" id="car" name="naj. prostriedok" value="you are beautiful">
+                            <label for="car">you are beautiful</label>
+                            <input type="radio" id="car" name="naj. prostriedok" value="ine">
+                            <label for="car">ine</label>
+                            </form>
+                            <form>
+                            <p>Vyber najoblubenejsieho člena </p>
+                            <input type="radio" id="car" name="naj. prostriedok" value="Ma Jiaqi">
+                            <label for="car">Ma Jiaqi</label>
+                            <input type="radio" id="car" name="naj. prostriedok" value="Ding Chenxin">
+                            <label for="car">Ding Chenxin</label>
+                            <input type="radio" id="car" name="naj. prostriedok" value="Song Yaxuan">
+                            <label for="car">Song Yaxuan</label>
+                            <input type="radio" id="car" name="naj. prostriedok" value="Liu Yaowen">
+                            <label for="car">Liu Yaowen</label>
+                            <input type="radio" id="car" name="naj. prostriedok" value="Zhan Zhenyuan">
+                            <label for="car">Zhan Zhenyuan</label>
+                            <input type="radio" id="car" name="naj. prostriedok" value="Yan Haoxiang">
+                            <label for="car">Yan Haoxiang</label>
+                            <input type="radio" id="car" name="naj. prostriedok" value="He Junlin">
+                            <label for="car">He Junlin</label>
+                            </form>
+        </body>
+    </head>
+</html>
