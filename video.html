@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <body>
+
+            <video src="256" width="250" controls>
+                <source src="video.mp4" type="video/mp4" >
+                <div style="text-align: center;">
+                    <button onclick="playPause()">Play/ Pause </button>
+                    <button onclick="playPause()">Big </button>
+                    <button onclick="playPause()">Small</button>
+                    <button onclic="playPause()">Normal</button>
+                    
+                    <br><br>
+                    <video id="video1" width="350" height="350">
+                    <source src="video.mp4" type="video/mp4">
+                </video>
+            </div>
+            <script>
+            var myVideo = document-getElementById ("video1");
+            
+            function playPause(){
+                if (myVideo-paused)
+                myVideo.play();
+            else myVideo.pause();
+            }
+            function makeBIg() {
+                myVideo.width=600
+            }
+            function makeSmall(){
+                myVideo.width=100
+            } 
+            function makeNormal() {
+                myVideo,width=350
+            }
+            </script>
+            <p>First ever Video downloaded from page youtube</p>
+            <br>
+            <br>    
+            <audio controls autoplay muted>
+                <source src="Me at the zoo (192 kbps) mp3" type="audio/mp3">
+            </audio>
+            <br>
+            <br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/zwV3h1vqUA?si-XlgX96I5MrKV4mIm" title="YouTube video player" framebox
+            allowfullscreen></iframe>
+            <iframe width="=150" height="150"src="https://www.youtube.com/embed/zwV3h1vqUA?si=XlgX9615MrKV4mIm">
+                </iframe>
+            </body>
+        </head>
+    </html>

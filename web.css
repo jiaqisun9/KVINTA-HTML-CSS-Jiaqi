@@ -63,7 +63,7 @@ b{
     position: relative;
     background-color: blueviolet;
     width: 1060px;
-    height: 300px;
+    height: 630px;
     margin-left: 11.5%;
 }
 #mg{
@@ -101,4 +101,16 @@ table{
     height: 300px;
     margin-top: 20px;
     margin-left: 11.5%;
+}
+#video{
+    margin-left: 290px;
+    margin-top: 300px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+ul{
+    margin-left: 125px;
 }
